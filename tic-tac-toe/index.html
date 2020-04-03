@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <title>tic tac..</title>
+</head>
+<body style="background-color: burlywood;">
+    .<div class="jumbotron jumbotron-fluid" style="background-image: url('new-jumbotron-background.png');">
+        <div class="container" style="text-align: center;">
+            <h1 class="display-7" style="color: aliceblue;">TIC - TAC - TOE</h1>
+            <p id="player" style="color: burlywood;">player 1 chance</p>
+            <button class="btn btn-warning" onclick="reload_the_page()">RESET</button>
+            <h3 id="winner_info" style="color: ghostwhite;">...</h3>
+            
+        </div>
+    </div>
+
+    <div class="grid-container">
+        <div class="grid-item" onclick="change1()"><img id="1" src="w.png" alt="w"></div>
+        <div class="grid-item" onclick="change2()" ><img id="2" src="w.png" alt="w" ></div>
+        <div class="grid-item" onclick="change3()"><img id="3" src="w.png" alt="w"></div>  
+        <div class="grid-item" onclick="change4()"><img id="4" src="w.png" alt="w"></div>
+        <div class="grid-item" onclick="change5()"><img id="5" src="w.png" alt="w"></div>
+        <div class="grid-item" onclick="change6()"><img id="6" src="w.png" alt="w"></div>  
+        <div class="grid-item" onclick="change7()"><img id="7" src="w.png" alt="w"></div>
+        <div class="grid-item" onclick="change8()"><img id="8" src="w.png" alt="w"></div>
+        <div class="grid-item"  onclick="change9()"><img  id="9" src="w.png" alt="w"></div>  
+      </div>
+
+      <script src="script.js">
+          
+      </script>
+    
+</body>
+</html>
